@@ -9,7 +9,6 @@ body {
   color: var(--text-dark);
 }
 
-/* Header & Hero */
 .custom-header,
 .hero {
   background-color: var(--primary-grey);
@@ -27,14 +26,13 @@ body {
   letter-spacing: 5px;
 }
 
-/* Adaptación de Contenedores */
 @media (min-width: 1200px) {
   .container-xl-custom {
-    max-width: 1000px; /* Márgenes del boceto XL */
+    max-width: 1000px; 
   }
 }
 
-/* Efectos Hover Menú y Botones */
+
 .nav-custom-btn,
 .btn-dark-custom,
 .btn-outline-custom {
@@ -72,7 +70,7 @@ body {
   color: white;
 }
 
-/* Smart Waste Hover Effect */
+
 .waste-image-container {
   position: relative;
   overflow: hidden;
@@ -90,7 +88,7 @@ body {
   opacity: 1;
 }
 
-/* Utilidades */
+
 .bg-light-custom {
   background-color: var(--light-grey);
 }
